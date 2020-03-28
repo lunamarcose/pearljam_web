@@ -18,7 +18,7 @@
 	<header>
 		<h2><a href="#">Pearl Jam | Argentina</a></h2>
 		<nav>
-			<li><a href="#">Noticias</a></li>
+			<li><a href="javascript:smoothScroll('news');">Novedades</a></li>
 			<li><a href="#">Tour</a></li>
 			<li><a href="#">Acerca</a></li>
 			<li><a href="#">Contacto</a></li>
@@ -31,6 +31,12 @@
 		<h1>Nuevo álbum disponible</h1>
 		<h3>Escucha Gigaton aquí.</h3>
 		<a href="https://pearljam.lnk.to/gigatonTw" target="_blank" class="btn">Escuchar</a>
+	</section>
+
+	<section class="hero" id="news">
+		<div class="background-image" style="background-image: url(assets/img/gigaton_background.jpg);"></div>
+		<h1 >Novedades</h1>
+		<a class="twitter-timeline" data-width="470" data-height="620" data-theme="dark" href="https://twitter.com/PearlJam?ref_src=twsrc%5Etfw">Tweets by PearlJam</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 	</section>
 
 <!--
@@ -108,10 +114,13 @@
 			<li><a href="#"><i class="fa fa-pinterest-square"></i></a></li>
 			<li><a href="#"><i class="fa fa-github-square""></i></a></li>
 		</ul>
-		<p>Realizado por <a href="https://twitter.com/markosjam" target="_blank">markosjam</a>. Imágenes obtenidas del <a href="https://pearljam.com/" target="_blank">sitio oficial</a>.</p>
+		<p>Realizado por <a href="https://twitter.com/markosjam" target="_blank">@markosjam</a>. Imágenes obtenidas del <a href="https://pearljam.com/" target="_blank">sitio oficial</a>.</p>
 		<p>sitio en construcción. Pronto disponible versión completa.</p>
 	</footer>
 
+	<form>
+		<input type="button" value="Result" onclick="display()"/>
+		</form>
 </body>
-
+<script src="assets/js/scripts.js"></script>
 </html>
